@@ -69,25 +69,46 @@ Remember to deactivate the virtual environment when you are done using your proj
 deactivate
 ```
 
-### Configuration
+## Configuration
 
 The project requires some configuration settings to run correctly. You can find these settings in the `config.py` file located in the root directory of the project. Make sure to adjust these settings according to your environment.
 
+### Environments
+There are a total of three environemnts to choose from.
 
-#### Small Environment
+##### Small Environment
 
 ![Small Environment](env_small.jpg)
 
-#### Medium Environment
+##### Medium Environment
 
 ![Medium Environment](env_medium.jpg)
 
-#### Large Environment
+##### Large Environment
 
 ![Large Environment](env_large.jpg)
 
 
+The `agent.py` file is a crucial component of our project, responsible for defining the behavior of our intelligent agent in different environments. The agent can be configured to operate in three distinct environments. The choice of environment can be made in the `agent.py` file within the GLOBALS section by modifying the `ENV` variable. The available options for the `ENV` variable are:
 
+1. `ENV_SMALL`: This environment represents a small-scale scenario. It is designed to facilitate quick testing and debugging, making it ideal for initial development and experimentation.
 
+2. `ENV_MEDIUM`: This environment offers a moderate level of complexity, striking a balance between the simplicity of `ENV_SMALL` and the challenge of `ENV_LARGE`. It is suitable for intermediate testing and optimization stages.
 
+3. `ENV_LARGE`: If you want to evaluate the agent's performance in a highly complex and realistic setting, this environment is the most appropriate choice. It presents a demanding and comprehensive scenario that reflects real-world challenges.
 
+### Configuring the Environment
+
+To choose a specific environment for the agent, follow these steps:
+
+1. Open the `agent.py` file in your preferred code editor.
+
+2. Locate the `GLOBALS` section within the file.
+
+3. Look for the variable named `ENV`.
+
+4. Assign one of the available options (`ENV_SMALL`, `ENV_MEDIUM`, or `ENV_LARGE`) to the `ENV` variable.
+
+5. Save the changes to the file.
+
+### Configuring the trainning 
