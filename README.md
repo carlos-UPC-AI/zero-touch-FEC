@@ -76,7 +76,7 @@ The project requires some configuration settings to run correctly. You can find 
 
 ## Small Environment
 
-![Small Environment](env_small.jpeg)
+![Small Environment](env_small.jpg)
 
 ## Medium Environment
 
