@@ -69,61 +69,7 @@ Remember to deactivate the virtual environment when you are done using your proj
 deactivate
 ```
 
-   
-## Configuration
-
-Sure! Below is a template for a configuration section in the `README.md` file for a Python project on GitHub. This section typically includes information about how to set up and configure the project.
-
-```
-# Project Name
-
-[Short project description]
-
-## Configuration
-
-To run this project locally or contribute to its development, you need to set up your environment following the steps below.
-
-### Prerequisites
-
-- Python [version]: [Link to Python installation]
-- [Any other specific prerequisites, if applicable]
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone [repository_url]
-cd [project_directory]
-```
-
-2. Create a virtual environment (recommended):
-
-```bash
-python -m venv venv
-```
-
-3. Activate the virtual environment:
-
-On Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-On macOS and Linux:
-
-```bash
-source venv/bin/activate
-```
-
-4. Install project dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Configuration File
+### Configuration
 
 The project requires some configuration settings to run correctly. You can find these settings in the `config.py` file located in the root directory of the project. Make sure to adjust these settings according to your environment.
 
