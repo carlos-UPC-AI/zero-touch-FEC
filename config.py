@@ -17,7 +17,7 @@ def get_graph_nodes(edges_cost):
 #                                                   GLOBALS                                                            #
 ########################################################################################################################
 # Directories
-PROJECT_NAME = "test models"
+PROJECT_NAME = "** INSERT-PROJECT-NAME-HERE **"
 PROJECT_DIR = "results/" + PROJECT_NAME + "/"
 MODELS = "models/"
 LOGS = "logs/"
