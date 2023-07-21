@@ -74,15 +74,15 @@ deactivate
 The project requires some configuration settings to run correctly. You can find these settings in the `config.py` file located in the root directory of the project. Make sure to adjust these settings according to your environment.
 
 
-## Small Environment
+#### Small Environment
 
 ![Small Environment](env_small.jpg)
 
-## Medium Environment
+#### Medium Environment
 
 ![Medium Environment](env_medium.jpeg)
 
-## Large Environment
+#### Large Environment
 
 ![Large Environment](env_large.jpeg)
 
