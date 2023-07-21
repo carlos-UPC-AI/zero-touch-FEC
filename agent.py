@@ -6,7 +6,7 @@ from environment import Environment
 from torch.optim import Adam
 from torch.nn import ReLU
 from config import (
-    ENV_SMALL, ENV_MEDIUM, ENV_LARGE,BACKGROUND_VEHICLES, SAVE_FREQ,
+    ENV_SMALL, ENV_MEDIUM, ENV_LARGE, BACKGROUND_VEHICLES, SAVE_FREQ,
     EVAL_EPISODES, PROJECT_DIR, LOGS, TRAINING_ROUNDS,
     CHECKPOINTS, MODELS, TIME_STEPS
 )
