@@ -80,11 +80,11 @@ The project requires some configuration settings to run correctly. You can find 
 
 #### Medium Environment
 
-![Medium Environment](env_medium.jpeg)
+![Medium Environment](env_medium.jpg)
 
 #### Large Environment
 
-![Large Environment](env_large.jpeg)
+![Large Environment](env_large.jpg)
 
 
 
