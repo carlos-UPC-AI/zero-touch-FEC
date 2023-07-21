@@ -112,3 +112,36 @@ To choose a specific environment for the agent, follow these steps:
 5. Save the changes to the file.
 
 ### Configuring the trainning 
+
+Below are the key variables used in the training of our agent to be found in the `config.py` file, in the `GLOBALS` section:
+
+- `TIME_STEPS`: The total number of training steps our agent will undergo. In this configuration, the value is set to 1,000,000.
+
+- `SEED`: The random seed used during training. For reproducible results, it is set to 1976. Alternatively, setting it to `None` will cause the background traffic VNFs to be randomly generated.
+
+- `SAVE_FREQ`: This parameter determines the frequency at which the model checkpoints will be saved. For this configuration, it is set to 50,000.
+
+- `MAX_STEPS`: The maximum number of steps our agent can take in each episode during training. In this configuration, it is limited to 25 steps.
+
+- `BACKGROUND_VEHICLES`: The number of background vehicles present in the environment during training. For this configuration, there are 10 background vehicles.
+
+- `EVAL_EPISODES`: The number of episodes used for evaluation during the training process. In this case, we evaluate the agent over 10 episodes.
+
+- `TRAINING_ROUNDS`: The total number of training rounds to execute. For this configuration, we perform 5 training rounds.
+
+### Configuring the directory's name for results
+
+To name the project folder, follow these steps:
+
+1. Open the `config.py` file in your code editor.
+
+2. Locate the `PROJECT_NAME` variable within the file (GLOBALS section).
+
+3. Replace the placeholder `** INSERT-PROJECT-NAME-HERE **` with the desired name for your project.
+
+4. Save the changes to the `config.py` file.
+
+5. The `PROJECT_DIR` variable, defined in the `config.py` file, will automatically create a folder named after your specified project name inside the "results" directory.
+
+6. The "results" directory will be the main folder containing all the project-related data and outputs.
+
