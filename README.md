@@ -9,6 +9,9 @@ DQN agent for optimal VNF placement in MEC systems for Connected Autonomous Vehi
 
 - [Usage](#usage)
 - [Configuration](#configuration)
+  - [Environments](#environments)
+  - [Training](#training)
+  - [Results directory](#results_directory)
 
 ## Usage
 
@@ -69,7 +72,7 @@ Remember to deactivate the virtual environment when you are done using your proj
 deactivate
 ```
 
-## Configuration
+## Configurations
 
 The project requires some configuration settings to run correctly. You can find these settings in the `config.py` file located in the root directory of the project. Make sure to adjust these settings according to your environment.
 
@@ -97,7 +100,7 @@ The `agent.py` file is a crucial component of our project, responsible for defin
 
 3. `ENV_LARGE`: If you want to evaluate the agent's performance in a highly complex and realistic setting, this environment is the most appropriate choice. It presents a demanding and comprehensive scenario that reflects real-world challenges.
 
-### Configuring the Environment
+### Environments
 
 To choose a specific environment for the agent, follow these steps:
 
@@ -111,7 +114,7 @@ To choose a specific environment for the agent, follow these steps:
 
 5. Save the changes to the file.
 
-### Configuring the trainning 
+### Training 
 
 Below are the key variables used in the training of our agent to be found in the `config.py` file, in the `GLOBALS` section:
 
@@ -129,9 +132,9 @@ Below are the key variables used in the training of our agent to be found in the
 
 - `TRAINING_ROUNDS`: The total number of training rounds to execute. For this configuration, we perform 5 training rounds.
 
-### Configuring the directory's name for results
+### Results directory
 
-To name the project folder, follow these steps:
+To name the project folder for the results, follow these steps:
 
 1. Open the `config.py` file in your code editor.
 
