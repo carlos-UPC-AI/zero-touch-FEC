@@ -42,13 +42,13 @@ if not os.path.exists(PROJECT_DIR + CHECKPOINTS):
     print(f"Creating dir: {PROJECT_DIR + CHECKPOINTS}")
 
 # Training
-TIME_STEPS = 75000
-SEED = 1976
+TIME_STEPS = 1000000
+SEED = 1976 # None: will randomly generate background traffic VNFs
 SAVE_FREQ = 50000
 MAX_STEPS = 25
 BACKGROUND_VEHICLES = 10
 EVAL_EPISODES = 10
-TRAINING_ROUNDS = 5
+TRAINING_ROUNDS = 5 
 
 # VNF demands
 VNF_GPU = 512
